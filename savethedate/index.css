@@ -1,11 +1,15 @@
 html {
   position: absolute;
-  height: 2400px;
+  height: 2100px;
   width: 450px;
   font-size: 66px;
   font-family: "EB Garamond", serif;
   background-color: #fff000;
 }
+
+/* A4 is 210mmx297mm */
+/* 6 strips per A4 */
+/* 45mm x 210mm (with 27mm leftover)*/
 
 div {
   margin: unset;
@@ -18,16 +22,16 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  height: 2400px;
+  height: 2100px;
   width: 450px;
   background-color: white;
 }
 
 img {
   position: absolute;
-  width: 400px;
-  left: 25px;
-  aspect-ratio: 4/5;
+  width: 350px;
+  left: 50px;
+  aspect-ratio: 5/6;
   object-fit: cover;
 }
 
@@ -35,13 +39,13 @@ img {
   top: 25px;
 }
 .photo2 {
-  top: 550px;
+  top: 470px;
 }
 .photo3 {
-  top: 1075px;
+  top: 915px;
 }
 .photo4 {
-  top: 1600px;
+  top: 1360px;
 }
 
 .qr {
@@ -54,21 +58,21 @@ img {
 
 .savethedate {
   position: absolute;
-  top: 2115px;
+  top: 1780px;
   width: calc(100% - 50px);
   height: 100px;
   line-height: 100px;
 }
 .date {
   position: absolute;
-  top: 2200px;
+  top: 1880px;
   width: calc(100% - 50px);
   height: 100px;
   line-height: 100px;
 }
 .names {
   position: absolute;
-  top: 2285px;
+  top: 1980px;
   width: calc(100% - 50px);
   height: 100px;
   line-height: 100px;
@@ -76,69 +80,76 @@ img {
 
 .details-std {
   position: absolute;
-  top: 195px;
+  top: 100px;
   width: calc(100% - 50px);
 }
 .details-date-d {
   position: absolute;
-  top: 310px;
+  top: 250px;
   width: calc(100% - 50px);
 }
 .details-date-m {
   position: absolute;
-  top: 370px;
+  top: 290px;
   width: calc(100% - 50px);
 }
 .details-date-y {
   position: absolute;
-  top: 430px;
+  top: 350px;
   width: calc(100% - 50px);
 }
 .details-r {
   position: absolute;
-  top: 650px;
+  top: 500px;
   width: calc(100% - 50px);
   font-size: 75px;
 }
 .details-s {
   position: absolute;
-  top: 718px;
+  top: 568px;
   width: calc(100% - 50px);
   font-size: 110px;
 }
 .details-and {
   position: absolute;
-  top: 862px;
+  top: 712px;
   width: calc(100% - 50px);
   font-size: 52px;
 }
 .details-c {
   position: absolute;
-  top: 930px;
+  top: 780px;
   width: calc(100% - 50px);
   font-size: 75px;
 }
 .details-vz {
   position: absolute;
-  top: 998px;
+  top: 848px;
   width: calc(100% - 50px);
   font-size: 100px;
 }
 .details-fh {
   position: absolute;
-  top: 1350px;
+  top: 1050px;
   width: calc(100% - 50px);
   font-size: 75px;
 }
 .details-ny {
   position: absolute;
-  top: 1430px;
+  top: 1130px;
   width: calc(100% - 50px);
   font-size: 44px;
 }
 .details-fi {
   position: absolute;
-  top: 1700px;
+  top: 1300px;
   width: calc(100% - 50px);
   line-height: 1;
+}
+.details-mi {
+  position: absolute;
+  top: 1600px;
+  width: calc(100% - 50px);
+  line-height: 1;
+  font-size: 44px;
 }
