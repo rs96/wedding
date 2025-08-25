@@ -1,14 +1,16 @@
 html {
+  position: absolute;
   height: 2400px;
   width: 450px;
-  font-size: 68px;
+  font-size: 66px;
   font-family: "EB Garamond", serif;
-  font-weight: 500;
   background-color: #fff000;
 }
 
 div {
   margin: unset;
+  text-align: center;
+  margin: 0 25px;
 }
 
 body {
@@ -43,36 +45,100 @@ img {
 }
 
 .qr {
-  bottom: 25px;
-  width: 400px;
+  position: absolute;
+  bottom: 0;
+  width: 450px;
   aspect-ratio: 1;
-  left: 25px;
+  left: 0;
 }
 
 .savethedate {
   position: absolute;
   top: 2115px;
-  width: 450px;
+  width: calc(100% - 50px);
   height: 100px;
   line-height: 100px;
 }
 .date {
   position: absolute;
   top: 2200px;
-  width: 450px;
+  width: calc(100% - 50px);
   height: 100px;
   line-height: 100px;
 }
 .names {
   position: absolute;
   top: 2285px;
-  width: 450px;
+  width: calc(100% - 50px);
   height: 100px;
   line-height: 100px;
 }
 
-.details {
+.details-std {
   position: absolute;
-  top: 25px;
-  width: 100%;
+  top: 195px;
+  width: calc(100% - 50px);
+}
+.details-date-d {
+  position: absolute;
+  top: 310px;
+  width: calc(100% - 50px);
+}
+.details-date-m {
+  position: absolute;
+  top: 370px;
+  width: calc(100% - 50px);
+}
+.details-date-y {
+  position: absolute;
+  top: 430px;
+  width: calc(100% - 50px);
+}
+.details-r {
+  position: absolute;
+  top: 650px;
+  width: calc(100% - 50px);
+  font-size: 75px;
+}
+.details-s {
+  position: absolute;
+  top: 718px;
+  width: calc(100% - 50px);
+  font-size: 110px;
+}
+.details-and {
+  position: absolute;
+  top: 862px;
+  width: calc(100% - 50px);
+  font-size: 52px;
+}
+.details-c {
+  position: absolute;
+  top: 930px;
+  width: calc(100% - 50px);
+  font-size: 75px;
+}
+.details-vz {
+  position: absolute;
+  top: 998px;
+  width: calc(100% - 50px);
+  font-size: 100px;
+}
+.details-fh {
+  position: absolute;
+  top: 1350px;
+  width: calc(100% - 50px);
+  font-size: 75px;
+}
+.details-ny {
+  position: absolute;
+  top: 1430px;
+  width: calc(100% - 50px);
+  font-size: 44px;
+}
+.details-fi {
+  position: absolute;
+  top: 1700px;
+  width: calc(100% - 50px);
+  line-height: 1;
 }
