@@ -1,0 +1,74 @@
+html {
+  text-align: center;
+  background-color: #ffff00;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-family: "CustomFont";
+  font-stretch: expanded;
+  letter-spacing: 3px;
+  color: #000000;
+  overflow: hidden;
+  text-underline-position: auto;
+  font-size: 68px;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+}
+
+div {
+  margin: unset;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 2400px;
+  width: 450px;
+  background-color: white;
+}
+
+img {
+  position: absolute;
+  width: 400px;
+  left: 25px;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+}
+
+.photo1 {
+  top: 25px;
+}
+.photo2 {
+  top: 550px;
+}
+.photo3 {
+  top: 1075px;
+}
+.photo4 {
+  top: 1600px;
+}
+
+.savethedate {
+  position: absolute;
+  top: 2115px;
+  width: 450px;
+  height: 100px;
+  line-height: 100px;
+}
+.date {
+  position: absolute;
+  top: 2200px;
+  width: 450px;
+  height: 100px;
+  line-height: 100px;
+}
+.names {
+  position: absolute;
+  top: 2285px;
+  width: 450px;
+  height: 100px;
+  line-height: 100px;
+}
