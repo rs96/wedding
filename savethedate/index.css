@@ -1,18 +1,10 @@
 html {
-  text-align: center;
-  background-color: #ffff00;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  font-family: "CustomFont";
-  font-stretch: expanded;
-  letter-spacing: 3px;
-  color: #000000;
-  overflow: hidden;
-  text-underline-position: auto;
+  height: 2400px;
+  width: 450px;
   font-size: 68px;
   font-family: "EB Garamond", serif;
   font-weight: 500;
+  background-color: #fff000;
 }
 
 div {
@@ -20,11 +12,10 @@ div {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
   height: 2400px;
   width: 450px;
   background-color: white;
@@ -51,6 +42,13 @@ img {
   top: 1600px;
 }
 
+.qr {
+  bottom: 25px;
+  width: 400px;
+  aspect-ratio: 1;
+  left: 25px;
+}
+
 .savethedate {
   position: absolute;
   top: 2115px;
@@ -71,4 +69,10 @@ img {
   width: 450px;
   height: 100px;
   line-height: 100px;
+}
+
+.details {
+  position: absolute;
+  top: 25px;
+  width: 100%;
 }
