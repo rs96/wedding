@@ -57,9 +57,9 @@ img {
 .qr {
   position: absolute;
   bottom: 0;
-  width: 99px;
+  width: 48px;
   aspect-ratio: 1;
-  left: 0;
+  right: 0;
 }
 
 .savethedate {
@@ -86,76 +86,80 @@ img {
 
 .details-std {
   position: absolute;
-  top: 100px;
-  width: calc(100% - 50px);
+  top: 3px;
+  width: calc(100% - 6px);
 }
 .details-date-d {
   position: absolute;
-  top: 235px;
-  width: calc(100% - 50px);
+  top: 18px;
+  width: calc(100% - 6px);
+  font-size: 10px;
 }
 .details-date-m {
   position: absolute;
-  top: 290px;
-  width: calc(100% - 50px);
+  top: 26px;
+  width: calc(100% - 6px);
+  font-size: 10px;
 }
 .details-date-y {
   position: absolute;
-  top: 360px;
-  width: calc(100% - 50px);
+  top: 35px;
+  width: calc(100% - 6px);
+  font-size: 10px;
 }
 .details-r {
   position: absolute;
-  top: 500px;
-  width: calc(100% - 50px);
-  font-size: 75px;
+  top: 45px;
+  width: calc(100% - 6px);
+  font-size: 20px;
 }
 .details-s {
   position: absolute;
-  top: 568px;
-  width: calc(100% - 50px);
-  font-size: 110px;
+  top: 60px;
+  width: calc(100% - 6px);
+  font-size: 20px;
 }
 .details-and {
   position: absolute;
-  top: 712px;
-  width: calc(100% - 50px);
-  font-size: 52px;
+  top: 83px;
+  width: calc(100% - 6px);
+  font-size: 12px;
 }
 .details-c {
   position: absolute;
-  top: 780px;
-  width: calc(100% - 50px);
-  font-size: 75px;
+  top: 90px;
+  width: calc(100% - 6px);
+  font-size: 20px;
 }
 .details-vz {
   position: absolute;
-  top: 848px;
-  width: calc(100% - 50px);
-  font-size: 100px;
+  top: 105px;
+  width: calc(100% - 6px);
+  font-size: 20px;
 }
 .details-fh {
   position: absolute;
-  top: 1050px;
-  width: calc(100% - 50px);
-  font-size: 75px;
+  top: 129px;
+  width: calc(100% - 6px);
+  font-size: 14px;
 }
 .details-ny {
   position: absolute;
-  top: 1130px;
-  width: calc(100% - 50px);
-  font-size: 44px;
+  top: 142px;
+  width: calc(100% - 6px);
+  font-size: 8px;
 }
 .details-fi {
   position: absolute;
-  top: 1300px;
-  width: calc(100% - 50px);
+  top: 155px;
+  width: calc(100% - 6px);
   line-height: 1;
+  font-size: 8px;
 }
 .details-mi {
   position: absolute;
-  top: 1600px;
-  width: calc(100% - 50px);
+  top: 178px;
+  width: 50%;
   line-height: 1;
-  font-size: 44px;
+  font-size: 8px;
 }
