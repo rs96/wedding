@@ -85,7 +85,7 @@ img {
 }
 .details-date-d {
   position: absolute;
-  top: 250px;
+  top: 235px;
   width: calc(100% - 50px);
 }
 .details-date-m {
@@ -95,7 +95,7 @@ img {
 }
 .details-date-y {
   position: absolute;
-  top: 350px;
+  top: 360px;
   width: calc(100% - 50px);
 }
 .details-r {
