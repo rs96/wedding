@@ -1,8 +1,8 @@
 html {
   position: absolute;
-  height: 2100px;
-  width: 450px;
-  font-size: 66px;
+  height: 210px;
+  width: 99px;
+  font-size: 13px;
   font-family: "EB Garamond", serif;
   background-color: #fff000;
 }
@@ -14,68 +14,74 @@ html {
 div {
   margin: unset;
   text-align: center;
-  margin: 0 25px;
 }
 
 body {
+  box-sizing: border-box;
   margin: 0;
+  padding: 3px;
   position: absolute;
   top: 0;
   left: 0;
-  height: 2100px;
-  width: 450px;
+  height: 210px;
+  width: 99px;
   background-color: white;
 }
 
 img {
   position: absolute;
-  width: 350px;
+  width: 45px;
+  /* height: 45px; */
   left: 50px;
-  aspect-ratio: 5/6;
+  aspect-ratio: 9/16;
   object-fit: cover;
 }
 
 .photo1 {
-  top: 25px;
+  top: 3px;
+  left: 3px;
 }
 .photo2 {
-  top: 470px;
+  top: 3px;
+  right: 3px;
 }
 .photo3 {
-  top: 915px;
+  top: 86px;
+  left: 3px;
 }
 .photo4 {
-  top: 1360px;
+  top: 86px;
+  right: 3px;
 }
 
 .qr {
   position: absolute;
   bottom: 0;
-  width: 450px;
+  width: 99px;
   aspect-ratio: 1;
   left: 0;
 }
 
 .savethedate {
   position: absolute;
-  top: 1780px;
-  width: calc(100% - 50px);
-  height: 100px;
-  line-height: 100px;
+  top: 165px;
+  width: calc(100% - 6px);
+  height: 20px;
+  line-height: 20px;
 }
 .date {
   position: absolute;
-  top: 1880px;
-  width: calc(100% - 50px);
-  height: 100px;
-  line-height: 100px;
+  top: 176px;
+  width: calc(100% - 6px);
+  height: 20px;
+  line-height: 20px;
 }
 .names {
   position: absolute;
-  top: 1980px;
-  width: calc(100% - 50px);
-  height: 100px;
-  line-height: 100px;
+  top: 188px;
+  width: calc(100% - 6px);
+  height: 20px;
+  line-height: 20px;
 }
 
 .details-std {
