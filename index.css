@@ -57,6 +57,11 @@ body {
   }
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* text */
 
 h1,
@@ -67,6 +72,8 @@ h4 {
   font-family: CustomFont;
   letter-spacing: 0rem;
   font-weight: 500;
+  text-decoration: none;
+  color: inherit;
 }
 
 h1 {
