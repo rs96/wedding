@@ -1,14 +1,11 @@
-/* @font-face {
-  font-family: "CustomFont";
-  src: url("./assets/fonts/Mutiara_Calligraphy.otf") format("opentype");
-} */
-
 html {
   position: absolute;
   font-family: "EB Garamond", serif;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  background-color: #e4e1d6;
+  color: #000080;
 }
 
 div {
@@ -24,7 +21,6 @@ body {
   height: 100%;
   width: 100%;
   overflow: hidden;
-  background-color: f2dfce;
 }
 
 /* containers */
@@ -47,7 +43,6 @@ section {
   width: 100%;
   max-width: 1500px;
   margin: 0 auto;
-  background-color: #f2dfce;
   border: solid black;
   border-width: 0 1px 0 1px;
   padding: 2rem 0;
