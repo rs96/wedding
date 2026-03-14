@@ -33,6 +33,7 @@ hr {
 section {
   width: 90%;
   margin: 0 5%;
+  margin-bottom: 20px;
 }
 
 .main {
@@ -82,6 +83,10 @@ h4 {
   text-decoration: none;
   color: inherit;
   text-align: center;
+}
+
+p {
+  margin: unset;
 }
 
 h1 {
