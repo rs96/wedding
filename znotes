@@ -1,7 +1,14 @@
 Pages:
-- Main
-- Schedule
-- Menu
-- RSVP
-- Gifts
-- Other
+  - Main
+  - Schedule
+  - Menu
+  - RSVP
+  - Gifts
+  - Other
+
+Questions:
+  - Yes/No
+  - Accomodation
+  - Food (choices and requirements)
+  - Who they will be sharing with
+  - Song requests

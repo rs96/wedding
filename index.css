@@ -3,7 +3,6 @@ html {
   font-family: "EB Garamond", serif;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
   background-color: #e4e1d6;
   color: #000080;
 }
@@ -12,15 +11,24 @@ div {
   margin: unset;
 }
 
+header {
+  margin-top: 10px;
+  > h3 {
+    text-align: center;
+  }
+}
+
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   margin: 0;
   height: 100%;
   width: 100%;
-  overflow: hidden;
+}
+
+footer {
+  width: 100%;
 }
 
 /* containers */
@@ -36,17 +44,11 @@ section {
   margin-bottom: 20px;
 }
 
-.main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
+main {
+  flex-grow: 1;
   width: 100%;
   max-width: 1500px;
   margin: 0 auto;
-  border: solid black;
-  border-width: 0 1px 0 1px;
-  padding: 2rem 0;
 }
 
 .navbar {
@@ -93,11 +95,45 @@ h1 {
   font-size: 3rem;
 }
 
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
 section {
-  > h3 {
-    margin-left: 1rem;
-    text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  overflow: scroll !important;
+
+  iframe {
+    width: 100%;
+    overflow: scroll !important;
   }
+}
+
+.emblem {
+  font-size: 40px;
+  letter-spacing: -10px;
+  font-family: "Pinyon Script", cursive;
+  margin: auto;
+  text-align: center;
+}
+
+/* elements */
+.cols {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 599px) {
