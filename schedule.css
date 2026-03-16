@@ -1,0 +1,18 @@
+section {
+  gap: 1.5rem;
+}
+.schedule {
+  margin: auto;
+  text-align: center;
+}
+
+.small-feature-text {
+  font-family: "Pinyon Script", cursive;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.day-title {
+  margin: 0.5rem 0;
+  font-weight: 500;
+}
