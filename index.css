@@ -11,6 +11,10 @@ div {
   margin: unset;
 }
 
+a {
+  color: inherit;
+}
+
 header {
   margin-top: 10px;
   > h3 {
@@ -60,7 +64,9 @@ main {
 .navbar {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 0.5rem;
 
   > span {
     user-select: none;
