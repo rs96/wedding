@@ -1,0 +1,13 @@
+.accommodation-gallery {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1rem;
+
+  > img {
+    /* max-width: 250px;
+    max-height: 250px; */
+    width: 18%;
+  }
+}

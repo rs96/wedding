@@ -1,0 +1,11 @@
+.gifts-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1rem;
+  min-width: 120px;
+  > img {
+    width: 12%;
+    min-width: 120px;
+  }
+}
